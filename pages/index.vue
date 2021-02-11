@@ -1,9 +1,9 @@
 <template>
-  <div></div>
+  <Header />
 </template>
 
 <script>
 export default {}
 </script>
 
-<style></style>
+<style lang="scss"></style>
