@@ -41,7 +41,7 @@ export default {
 .hamburger {
   height: 6.3rem;
   width: 6.3rem;
-  background-color: #000;
+  background-color: transparent;
 
   border: none;
   border-radius: 50%;

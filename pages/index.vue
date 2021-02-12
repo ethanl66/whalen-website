@@ -1,13 +1,13 @@
 <template>
-  <div class="container"><Header /></div>
+  <div class="container">
+    <Header />
+    <Agency />
+    <Skills />
+  </div>
 </template>
 
 <script>
 export default {}
 </script>
 
-<style lang="scss">
-.container {
-  height: 200vh;
-}
-</style>
+<style lang="scss"></style>

@@ -22,3 +22,16 @@ body {
   margin: 0;
   font-family: 'Crimson Text', serif;
 }
+.flex-row-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
