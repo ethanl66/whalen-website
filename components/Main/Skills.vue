@@ -2,36 +2,36 @@
   <section class="skills">
     <h2 class="skills-header">Industry Standard Skills</h2>
     <div class="skills-container">
-      <h5 class="skills-sub">Click To Learn More</h5>
+      <h5 class="skills-sub">Click An Icon To Learn More</h5>
       <div class="skills-row">
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094439/Logos/Sass_Logo_Color_r1mv6v.png"
-          alt=""
+          alt="SCSS Logo Click To Learn About SCSS"
           class="skills-img"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/js_yjli5z.png"
-          alt=""
+          alt="JavaScript Logo Click To Learn About JavaScript"
           class="skills-img"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Vuelogo_kif8pr.png"
-          alt=""
+          alt="VueJS Logo Click To Learn About VueJS"
           class="skills-img"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/node2_cifopi.png"
-          alt=""
+          alt="NodeJS Logo Click To Learn About NodeJS"
           class="skills-img"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/mongo_mx4lbb.png"
-          alt=""
+          alt="Mongo DB Logo Click To Learn About MongoDB"
           class="skills-img"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/firebase_zovqxa.png"
-          alt=""
+          alt="Firebase Logo Click To Learn About Firebase"
           class="skills-img"
         />
       </div>
@@ -40,7 +40,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      JS: false,
+      SCSS: false,
+      Node: false,
+      Vue: false,
+      Firebase: false,
+      Mongo: false,
+    }
+  },
+}
 </script>
 
 <style>
