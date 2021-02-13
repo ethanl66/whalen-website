@@ -30,7 +30,7 @@
           class="skills-img"
         />
         <img
-          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/firebase_zovqxa.png"
+          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/firebase_byc1b1.png"
           alt="Firebase Logo Click To Learn About Firebase"
           class="skills-img"
         />
@@ -79,7 +79,7 @@ export default {
   margin: 2rem auto;
 }
 .skills-row {
-  background-color: var(--background-secondary);
+  background-color: var(--skill-background);
   height: auto;
   width: 100%;
   padding: 5rem 0;

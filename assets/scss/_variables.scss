@@ -1,12 +1,14 @@
 :root {
   /* Define Colors as colors */
   --black: #000;
+  --light-black: #222;
   --white: #fff;
   --dark-grey: #1a2f41;
   --grey: #252c30;
   --lightGrey: #f2f4f6;
   /* Define Colors intentions */
-  --background-primary: var(--black);
+  --background-primary: var(--light-black);
+  --skill-background: var(--black);
   --background-secondary: var(--dark-grey);
   --text-primary: var(--white);
   --text-secondary: var(--white);
