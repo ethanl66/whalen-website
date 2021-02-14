@@ -13,6 +13,7 @@
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/js_yjli5z.png"
           alt="JavaScript Logo Click To Learn About JavaScript"
           class="skills-img"
+          @click="displayComponent"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Vuelogo_kif8pr.png"
@@ -36,6 +37,13 @@
         />
       </div>
     </div>
+    <JavaScript
+      v-if="JS"
+      @click="displayComponent"
+      :JS="JS"
+      @hide="hide"
+      class="position"
+    />
   </section>
 </template>
 
@@ -51,11 +59,26 @@ export default {
       Mongo: false,
     }
   },
+  methods: {
+    displayComponent: function () {
+      if (this.JS === false) {
+        this.JS = true
+        return this.JS
+      } else {
+        this.JS = false
+        return this.JS
+      }
+    },
+    hide: function () {
+      this.JS = false
+    },
+  },
 }
 </script>
 
 <style>
 .skills {
+  position: relative;
   height: 100vh;
   width: 100%;
   background-color: var(--background-primary);
@@ -90,5 +113,11 @@ export default {
 .skills-img {
   width: 10%;
   padding: 2rem;
+}
+.position {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
 }
 </style>
