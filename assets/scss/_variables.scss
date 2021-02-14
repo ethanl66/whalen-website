@@ -49,3 +49,28 @@
   flex-direction: column;
   align-items: center;
 }
+$laptop: (
+  max-width: 1280px,
+);
+$tablet: (
+  max-width: 768px,
+);
+$phone: (
+  max-width: 640px,
+);
+
+@mixin tablet {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and (max-width: 1500px) {
+    @content;
+  }
+}
+@mixin phone {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

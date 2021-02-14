@@ -119,6 +119,7 @@ export default {
 .nav-item,
 .nav-item:visited,
 .nav-item:link {
+  font-size: var(--h3);
   font-weight: 300;
   margin: 1rem 0;
   padding: 1rem 2rem;

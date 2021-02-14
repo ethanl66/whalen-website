@@ -22,6 +22,11 @@ header {
     text-transform: uppercase;
   }
 }
+@include tablet {
+  header {
+    background-position: center;
+  }
+}
 .heading {
   position: absolute;
   top: 40%;

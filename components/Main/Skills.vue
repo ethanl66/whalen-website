@@ -81,7 +81,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .skills {
   position: relative;
   height: 100vh;
@@ -113,7 +113,7 @@ export default {
   padding: 5rem 0;
   display: flex;
   justify-content: space-around;
-  align-items: ce;
+  align-items: center;
 }
 .skills-img {
   width: 10%;
@@ -124,5 +124,19 @@ export default {
   top: 0;
   left: 0;
   transition: all 0.3s;
+}
+@include tablet {
+  .skills-row {
+    flex-wrap: wrap;
+  }
+  .skills-img {
+    width: 15%;
+    padding: none;
+  }
+}
+@include phone {
+  .skills-img {
+    width: 20%;
+  }
 }
 </style>

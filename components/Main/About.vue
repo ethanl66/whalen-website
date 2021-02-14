@@ -64,6 +64,7 @@ export default {}
   justify-content: space-around;
   align-items: center;
 }
+
 .about-card {
   padding: 2rem;
   width: 20%;
@@ -76,6 +77,7 @@ export default {}
   background-color: var(--card-background);
   transition: all 0.3s;
 }
+
 .about-card:hover {
   transform: translateY(-3px) scale(1.1);
 }
@@ -94,5 +96,23 @@ export default {}
 .about-text-content {
   font-size: var(--h4);
   margin-top: 10%;
+}
+@include laptop {
+  .about-card {
+    height: 65vh;
+  }
+}
+@include tablet {
+  .about-content {
+    margin: 5rem auto;
+    flex-direction: column;
+  }
+  .about-card {
+    width: 90%;
+    height: auto;
+  }
+  .about {
+    height: auto;
+  }
 }
 </style>
