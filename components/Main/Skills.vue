@@ -13,7 +13,7 @@
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/js_yjli5z.png"
           alt="JavaScript Logo Click To Learn About JavaScript"
           class="skills-img"
-          @click="displayComponent"
+          @click="displayJSComponent"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Vuelogo_kif8pr.png"
@@ -39,7 +39,7 @@
     </div>
     <JavaScript
       v-if="JS"
-      @click="displayComponent"
+      @click="displayJSComponent"
       :JS="JS"
       @hide="hide"
       class="position"
@@ -60,7 +60,7 @@ export default {
     }
   },
   methods: {
-    displayComponent: function () {
+    displayJSComponent: function () {
       if (this.JS === false) {
         this.JS = true
         return this.JS
@@ -70,7 +70,12 @@ export default {
       }
     },
     hide: function () {
-      this.JS = false
+      ;(this.JS = false),
+        (this.SCSS = false),
+        (this.Node = false),
+        (this.Vue = false),
+        (this.Firebase = false),
+        (this.Mongo = false)
     },
   },
 }
