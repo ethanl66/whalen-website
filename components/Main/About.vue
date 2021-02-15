@@ -103,16 +103,25 @@ export default {}
   }
 }
 @include tablet {
+  .about-header {
+    margin: 1rem auto;
+  }
   .about-content {
-    margin: 5rem auto;
+    margin: 4rem auto;
     flex-direction: column;
   }
   .about-card {
     width: 90%;
     height: auto;
+    margin: 1rem auto;
   }
   .about {
     height: auto;
+  }
+}
+@include phone {
+  .about-content {
+    margin: 2rem autos;
   }
 }
 </style>

@@ -126,6 +126,12 @@ export default {
   transition: all 0.3s;
 }
 @include tablet {
+  .skills-header {
+    font-size: var(--h2);
+  }
+  .skills-sub {
+    margin: 0.5rem auto;
+  }
   .skills-row {
     flex-wrap: wrap;
   }

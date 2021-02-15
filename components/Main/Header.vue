@@ -24,7 +24,8 @@ header {
 }
 @include tablet {
   header {
-    background-position: center;
+    //background-position: center;
+    background-image: url('https://res.cloudinary.com/dbopxlpuy/image/upload/b_rgb:000000,c_scale,f_auto,o_19,w_1920/v1611365531/Bao/test_c6zrj6.png');
   }
 }
 .heading {

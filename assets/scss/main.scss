@@ -17,6 +17,11 @@ html {
     font-size: 52%;
   }
 }
+@include phone {
+  html {
+    font-size: 48%;
+  }
+}
 *,
 *::before,
 *::after {

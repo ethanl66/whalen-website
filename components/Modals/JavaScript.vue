@@ -76,4 +76,24 @@ export default {
   padding: 1rem;
   text-align: left;
 }
+@include tablet {
+  .modal-flex-row {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 4rem auto;
+  }
+  .modal-flex-col {
+    width: 90%;
+  }
+  .modal-image {
+    width: 50%;
+  }
+  .modal-logo {
+    width: 20%;
+  }
+  .modal-text-content {
+    margin: 3rem auto;
+  }
+}
 </style>
