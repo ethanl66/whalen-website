@@ -118,6 +118,7 @@ export default {
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-template-areas: 'grid-1 grid-2 grid-3 grid-4 grid-5 grid-6';
+  align-items: center;
 }
 @include tablet {
   .skills-row {
