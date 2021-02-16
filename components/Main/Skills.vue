@@ -3,37 +3,38 @@
     <h2 class="skills-header">Industry Standard Skills</h2>
     <div class="skills-container">
       <h5 class="skills-sub">Click An Icon To Learn More</h5>
+
       <div class="skills-row">
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094439/Logos/Sass_Logo_Color_r1mv6v.png"
           alt="SCSS Logo Click To Learn About SCSS"
-          class="skills-img"
+          class="skills-img grid-1"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/js_yjli5z.png"
           alt="JavaScript Logo Click To Learn About JavaScript"
-          class="skills-img"
+          class="skills-img grid-2"
           @click="displayJSComponent"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Vuelogo_kif8pr.png"
           alt="VueJS Logo Click To Learn About VueJS"
-          class="skills-img"
+          class="skills-img grid-3"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/node2_cifopi.png"
           alt="NodeJS Logo Click To Learn About NodeJS"
-          class="skills-img"
+          class="skills-img grid-4"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/mongo_mx4lbb.png"
           alt="Mongo DB Logo Click To Learn About MongoDB"
-          class="skills-img"
+          class="skills-img grid-5"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/firebase_byc1b1.png"
           alt="Firebase Logo Click To Learn About Firebase"
-          class="skills-img"
+          class="skills-img grid-6"
         />
       </div>
     </div>
@@ -106,18 +107,49 @@ export default {
 .skills-sub {
   margin: 2rem auto;
 }
+
 .skills-row {
   background-color: var(--skill-background);
   height: auto;
   width: 100%;
   padding: 5rem 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: 'grid-1 grid-2 grid-3 grid-4 grid-5 grid-6';
+}
+@include tablet {
+  .skills-row {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      'grid-1 grid-2 grid-3'
+      'grid-4 grid-5 grid-6';
+  }
+}
+.grid-1 {
+  grid-area: grid-1;
+}
+.grid-2 {
+  grid-area: grid-2;
+}
+.grid-3 {
+  grid-area: grid-3;
+}
+.grid-4 {
+  grid-area: grid-4;
+}
+.grid-5 {
+  grid-area: grid-5;
+}
+.grid-6 {
+  grid-area: grid-6;
 }
 .skills-img {
-  width: 10%;
+  width: 60%;
   padding: 2rem;
+  margin: 0 auto;
 }
 .position {
   position: fixed;
@@ -132,17 +164,15 @@ export default {
   .skills-sub {
     margin: 0.5rem auto;
   }
-  .skills-row {
-    flex-wrap: wrap;
-  }
+
   .skills-img {
-    width: 15%;
+    width: 70%;
     padding: none;
   }
 }
 @include phone {
   .skills-img {
-    width: 20%;
+    width: 70%;
   }
 }
 </style>

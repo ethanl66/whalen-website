@@ -104,7 +104,7 @@ export default {}
 }
 @include tablet {
   .about-header {
-    margin: 1rem auto;
+    margin: rem auto;
   }
   .about-content {
     margin: 4rem auto;
@@ -113,7 +113,8 @@ export default {}
   .about-card {
     width: 90%;
     height: auto;
-    margin: 1rem auto;
+    margin: 2rem auto;
+    padding: 3rem;
   }
   .about {
     height: auto;
@@ -121,7 +122,7 @@ export default {}
 }
 @include phone {
   .about-content {
-    margin: 2rem autos;
+    margin: 2rem auto;
   }
 }
 </style>
