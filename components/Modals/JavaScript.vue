@@ -25,7 +25,7 @@
         />
       </div>
     </div>
-    <h5>Click Anywhere To Exit</h5>
+    <button class="modal-btn btn">Close</button>
   </div>
 </template>
 
@@ -44,10 +44,12 @@ export default {
 <style lang="scss">
 .modal-container {
   background-color: black;
+  margin: 0 auto;
   color: #fff;
   height: 100%;
-  width: 100%;
+  width: 80%;
   text-align: center;
+  z-index: 3;
 }
 .modal-header {
   text-transform: uppercase;

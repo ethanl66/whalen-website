@@ -38,13 +38,17 @@
         />
       </div>
     </div>
-    <JavaScript
-      v-if="JS"
-      @click="displayJSComponent"
-      :JS="JS"
-      @hide="hide"
-      class="position"
-    />
+    <transition name="pop" appear
+      ><JavaScript
+        v-if="JS"
+        @click="displayJSComponent"
+        :JS="JS"
+        @hide="hide"
+        class="position"
+    /></transition>
+    <transition name="fade" appear>
+      <div class="modal-overlay" v-if="showModal"></div>
+    </transition>
   </section>
 </template>
 
@@ -58,16 +62,19 @@ export default {
       Vue: false,
       Firebase: false,
       Mongo: false,
+      showModal: false,
     }
   },
   methods: {
     displayJSComponent: function () {
       if (this.JS === false) {
         this.JS = true
-        return this.JS
+        this.showModal = true
+        return [this.JS, this.showModal]
       } else {
         this.JS = false
-        return this.JS
+        this.showModal = false
+        return [this.JS, this.showModal]
       }
     },
     hide: function () {
@@ -76,7 +83,8 @@ export default {
         (this.Node = false),
         (this.Vue = false),
         (this.Firebase = false),
-        (this.Mongo = false)
+        (this.Mongo = false),
+        (this.showModal = false)
     },
   },
 }
@@ -155,8 +163,29 @@ export default {
 .position {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
   transition: all 0.3s;
+  z-index: 1;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s linear;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.pop-enter-active,
+.pop-leave-active {
+  transition: transform 0.3s cubic-bezier(0.5, 0, 0.5, 1), opacity 0.3s linear;
+}
+
+.pop-enter,
+.pop-leave-to {
+  opacity: 0;
+  transform: scale(0.3) translateY(-50%);
 }
 @include tablet {
   .skills-header {
@@ -175,5 +204,18 @@ export default {
   .skills-img {
     width: 70%;
   }
+}
+.modal-overlay {
+  content: '';
+  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: #2c3e50;
+  opacity: 0.5;
+  cursor: pointer;
 }
 </style>
