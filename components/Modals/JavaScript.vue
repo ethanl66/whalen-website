@@ -79,11 +79,21 @@ export default {
   text-align: left;
 }
 @include tablet {
+  .modal-container {
+    background-color: black;
+    margin: 0 auto;
+    color: #fff;
+    height: auto;
+    width: 85%;
+    padding: 1rem;
+    text-align: center;
+    z-index: 3;
+  }
   .modal-flex-row {
     flex-direction: column;
     height: auto;
     width: 100%;
-    margin: 4rem auto;
+    margin: 3rem auto;
   }
   .modal-flex-col {
     width: 90%;
@@ -95,7 +105,8 @@ export default {
     width: 20%;
   }
   .modal-text-content {
-    margin: 3rem auto;
+    margin: 2rem auto;
+    text-align: center;
   }
 }
 </style>
