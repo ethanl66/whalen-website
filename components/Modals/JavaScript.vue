@@ -79,6 +79,9 @@ export default {
   text-align: left;
 }
 @include tablet {
+  .modal-header {
+    font-size: var(--h3);
+  }
   .modal-container {
     background-color: black;
     margin: 0 auto;

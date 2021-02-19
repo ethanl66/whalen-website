@@ -2,7 +2,6 @@
 @import '_typography.scss';
 @import '_btn.scss';
 
-
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -16,12 +15,12 @@ html {
 }
 @include tablet {
   html {
-    font-size: 52%;
+    font-size: 50%;
   }
 }
 @include phone {
   html {
-    font-size: 48%;
+    font-size: 45%;
   }
 }
 *,
