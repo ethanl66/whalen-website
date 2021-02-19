@@ -1,28 +1,27 @@
 <template>
   <div @click="makeHidden" class="modal-container">
-    <h2 class="modal-header">CSS Design Systems and Accessibility</h2>
+    <h2 class="modal-header">NodeJS</h2>
     <div class="modal-flex-row">
       <div class="modal-flex-col">
         <img
-          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Sass_Logo_Color_r1mv6v.png"
-          alt="SCSS Logo "
+          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/node2_cifopi.png"
+          alt="NodeJS Logo "
           class="modal-logo"
         />
         <p class="modal-text-content">
-          Starting in 2020-2021, we began our "Accessibility in Design"
-          initiative. Students in the first year Computer Science and
-          Engineering course learn about accessable design and best practices
-          while learning the fundamentals of CSS. Students are taught to build
-          out a full CSS design system while leveraging the power of CSS custom
-          properties, SCSS mix-ins and SCSS nesting to ensure all users can
-          navigate our applications.
+          NodeJS with Express was the backend server that rendered the 2019-2020
+          AP CSP Full-Stack applications. Students used Handlebars templates and
+          express to create dynamic server rendered applications. We are
+          currently shifting from NodeJS towards Python with Flask for the
+          upcoming school year to give our students more exposure to various
+          aspects of development.
         </p>
       </div>
       <div class="modal-flex-col">
         <img
           class="modal-image"
-          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Fantasy Kingdom/Screenshot_2021-02-11_Galgudd_rfkjts.png"
-          alt="Blackjack game developed by Nick Melkadze"
+          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Fire Emblem/attack_pdyrpw"
+          alt="Fire Emblem Attack Screen by William Anderson"
         />
       </div>
     </div>
@@ -32,7 +31,7 @@
 
 <script>
 export default {
-  props: ['SCSS'],
+  props: ['Node'],
 
   methods: {
     makeHidden: function () {

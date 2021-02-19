@@ -1,27 +1,26 @@
 <template>
   <div @click="makeHidden" class="modal-container">
-    <h2 class="modal-header">CSS Design Systems and Accessibility</h2>
+    <h2 class="modal-header">Mongo and Mongoose</h2>
     <div class="modal-flex-row">
       <div class="modal-flex-col">
         <img
-          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Sass_Logo_Color_r1mv6v.png"
-          alt="SCSS Logo "
+          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/mongo_mx4lbb.png"
+          alt="MongoDB Logo "
           class="modal-logo"
         />
         <p class="modal-text-content">
-          Starting in 2020-2021, we began our "Accessibility in Design"
-          initiative. Students in the first year Computer Science and
-          Engineering course learn about accessable design and best practices
-          while learning the fundamentals of CSS. Students are taught to build
-          out a full CSS design system while leveraging the power of CSS custom
-          properties, SCSS mix-ins and SCSS nesting to ensure all users can
-          navigate our applications.
+          MongoDB with Mongoose was the database used for AP CSP during the
+          2019-2020 school year. MongoDB is the most popular database and
+          framework in the industry. MongoDB allows for our students to create
+          highly scalable web applications with real time data. For 2020-2021 we
+          used Firebase for it's simplicity but our intention is to
+          re-incorporate MongoDB in future school years.
         </p>
       </div>
       <div class="modal-flex-col">
         <img
           class="modal-image"
-          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Fantasy Kingdom/Screenshot_2021-02-11_Galgudd_rfkjts.png"
+          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Loop/loop_dash_maxdej"
           alt="Blackjack game developed by Nick Melkadze"
         />
       </div>

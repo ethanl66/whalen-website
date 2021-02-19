@@ -21,21 +21,25 @@
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Vuelogo_kif8pr.png"
           alt="VueJS Logo Click To Learn About VueJS"
           class="skills-img grid-3"
+          @click="displayVueComponent"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/node2_cifopi.png"
           alt="NodeJS Logo Click To Learn About NodeJS"
           class="skills-img grid-4"
+          @click="displayNodeComponent"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/mongo_mx4lbb.png"
           alt="Mongo DB Logo Click To Learn About MongoDB"
           class="skills-img grid-5"
+          @click="displayMongoComponent"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/firebase_byc1b1.png"
           alt="Firebase Logo Click To Learn About Firebase"
           class="skills-img grid-6"
+          @click="displayFirebaseComponent"
         />
       </div>
     </div>
@@ -52,6 +56,38 @@
         v-if="SCSS"
         @click="displaySCSSComponent"
         :SCSS="SCSS"
+        @hide="hide"
+        class="position"
+    /></transition>
+    <transition name="pop" appear
+      ><Firebase
+        v-if="Firebase"
+        @click="displayFirebaseComponent"
+        :Firebase="Firebase"
+        @hide="hide"
+        class="position"
+    /></transition>
+    <transition name="pop" appear
+      ><Mongo
+        v-if="Mongo"
+        @click="displayMongoComponent"
+        :Mongo="Mongo"
+        @hide="hide"
+        class="position"
+    /></transition>
+    <transition name="pop" appear
+      ><Node
+        v-if="Node"
+        @click="displayNodeComponent"
+        :Node="Node"
+        @hide="hide"
+        class="position"
+    /></transition>
+    <transition name="pop" appear
+      ><VueJS
+        v-if="Vue"
+        @click="displayVueComponent"
+        :Vue="Vue"
         @hide="hide"
         class="position"
     /></transition>
@@ -95,6 +131,50 @@ export default {
         this.SCSS = false
         this.showModal = false
         return [this.SCSS, this.showModal]
+      }
+    },
+    displayNodeComponent: function () {
+      if (this.Node === false) {
+        this.Node = true
+        this.showModal = true
+        return [this.Node, this.showModal]
+      } else {
+        this.Node = false
+        this.showModal = false
+        return [this.Node, this.showModal]
+      }
+    },
+    displayMongoComponent: function () {
+      if (this.Mongo === false) {
+        this.Mongo = true
+        this.showModal = true
+        return [this.Mongo, this.showModal]
+      } else {
+        this.Mongo = false
+        this.showModal = false
+        return [this.Mongo, this.showModal]
+      }
+    },
+    displayVueComponent: function () {
+      if (this.Vue === false) {
+        this.Vue = true
+        this.showModal = true
+        return [this.Vue, this.showModal]
+      } else {
+        this.Vue = false
+        this.showModal = false
+        return [this.Vue, this.showModal]
+      }
+    },
+    displayFirebaseComponent: function () {
+      if (this.Firebase === false) {
+        this.Firebase = true
+        this.showModal = true
+        return [this.Firebase, this.showModal]
+      } else {
+        this.Firebase = false
+        this.showModal = false
+        return [this.Firebase, this.showModal]
       }
     },
     hide: function () {

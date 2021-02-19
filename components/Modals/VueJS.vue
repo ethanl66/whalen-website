@@ -1,21 +1,21 @@
 <template>
   <div @click="makeHidden" class="modal-container">
-    <h2 class="modal-header">CSS Design Systems and Accessibility</h2>
+    <h2 class="modal-header">VueJS</h2>
     <div class="modal-flex-row">
       <div class="modal-flex-col">
         <img
-          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Sass_Logo_Color_r1mv6v.png"
-          alt="SCSS Logo "
+          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Vuelogo_kif8pr.png"
+          alt="JavaScript Logo "
           class="modal-logo"
         />
         <p class="modal-text-content">
-          Starting in 2020-2021, we began our "Accessibility in Design"
-          initiative. Students in the first year Computer Science and
-          Engineering course learn about accessable design and best practices
-          while learning the fundamentals of CSS. Students are taught to build
-          out a full CSS design system while leveraging the power of CSS custom
-          properties, SCSS mix-ins and SCSS nesting to ensure all users can
-          navigate our applications.
+          VueJS is the JavaScript framework of choice for our courses. I
+          determined that familiarity with a JavaScript framework was a
+          necessity for being able to enter the field. Vue was choosen for it's
+          popularity while still being easy to pickup due to great
+          documentation. Students are introduced to Vuex and Nuxt but are not
+          required to use these technologies unless students determine they are
+          needed for their applications.
         </p>
       </div>
       <div class="modal-flex-col">
