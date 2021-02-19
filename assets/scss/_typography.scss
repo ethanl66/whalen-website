@@ -7,7 +7,11 @@ h1 {
 h2 {
   font-size: var(--h2);
 }
-
+@include phone {
+  h2 {
+    font-size: var(--h3);
+  }
+}
 h3 {
   font-size: var(--h3);
 }
@@ -25,6 +29,14 @@ h3,
 h4,
 h5 {
   text-align: center;
+}
+@include phone {
+  h2 {
+    font-size: var(--h3);
+  }
+  h3 {
+    font-size: var(--h4);
+  }
 }
 .text-dark {
   color: var(--text-secondary);
