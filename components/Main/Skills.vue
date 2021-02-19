@@ -9,6 +9,7 @@
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094439/Logos/Sass_Logo_Color_r1mv6v.png"
           alt="SCSS Logo Click To Learn About SCSS"
           class="skills-img grid-1"
+          @click="displaySCSSComponent"
         />
         <img
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/js_yjli5z.png"
@@ -46,6 +47,14 @@
         @hide="hide"
         class="position"
     /></transition>
+    <transition name="pop" appear
+      ><SCSS
+        v-if="SCSS"
+        @click="displaySCSSComponent"
+        :SCSS="SCSS"
+        @hide="hide"
+        class="position"
+    /></transition>
     <transition name="fade" appear>
       <div class="modal-overlay" v-if="showModal"></div>
     </transition>
@@ -75,6 +84,17 @@ export default {
         this.JS = false
         this.showModal = false
         return [this.JS, this.showModal]
+      }
+    },
+    displaySCSSComponent: function () {
+      if (this.SCSS === false) {
+        this.SCSS = true
+        this.showModal = true
+        return [this.SCSS, this.showModal]
+      } else {
+        this.SCSS = false
+        this.showModal = false
+        return [this.SCSS, this.showModal]
       }
     },
     hide: function () {

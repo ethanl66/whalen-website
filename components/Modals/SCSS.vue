@@ -1,26 +1,27 @@
 <template>
   <div @click="makeHidden" class="modal-container">
-    <h2 class="modal-header">ES6 and Modern JavaScript</h2>
+    <h2 class="modal-header">CSS Design Systems and Accessablity</h2>
     <div class="modal-flex-row">
       <div class="modal-flex-col">
         <img
-          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/js_yjli5z.png"
+          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_300/v1613094438/Logos/Sass_Logo_Color_r1mv6v.png"
           alt="JavaScript Logo "
           class="modal-logo"
         />
         <p class="modal-text-content">
-          Students begin learning modern javaScript in term two of computer
-          science. with an emphasis on dry code (don’t repeat yourself),
-          students are given the tools to begin developing projects usinge
-          external API’s of their choosing using Asynchronous JavaScript.
-          Students use indsutry standard tools like parcel, ESModules and Node
-          Package Manager to bundle their projects
+          Starting in 2020-2021, we began our Accessablity in Design initiative.
+          Students in the first year Computer Science and Engineering course
+          learn about accessable design and best practices while learning the
+          fundamentals of CSS. Students are taught to build out a full CSS
+          design system while leveraging the power of CSS custom properties,
+          SCSS mix-ins and SCSS nesting to ensure all users can navigate our
+          applications.
         </p>
       </div>
       <div class="modal-flex-col">
         <img
           class="modal-image"
-          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Jack21/Screenshot_2021-02-14_Jack_Twenty-One_pncx2g.png"
+          src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Fantasy Kingdom/Screenshot_2021-02-11_Galgudd_rfkjts.png"
           alt="Blackjack game developed by Nick Melkadze"
         />
       </div>
