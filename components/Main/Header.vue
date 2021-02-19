@@ -5,6 +5,7 @@
       <h4>Full-Stack Educator</h4>
       <h4>Staten Island Technical High School</h4>
     </div>
+    <button class="header-btn btn">See Our Work</button>
   </header>
 </template>
 
@@ -37,5 +38,11 @@ header {
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
+}
+.header-btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>

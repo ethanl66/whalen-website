@@ -2,7 +2,7 @@
   <section class="skills">
     <h2 class="skills-header">Industry Standard Skills</h2>
     <div class="skills-container">
-      <h5 class="skills-sub">Click An Icon To Learn More</h5>
+      <h3 class="skills-sub">Click An Icon To Learn More</h3>
 
       <div class="skills-row">
         <img
@@ -114,6 +114,7 @@ export default {
 }
 .skills-sub {
   margin: 2rem auto;
+  text-decoration: underline;
 }
 
 .skills-row {
