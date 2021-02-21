@@ -1,0 +1,21 @@
+.work-row {
+  display: flex;
+  width: 90%;
+  margin: 2rem auto;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+}
+.work-content {
+  @include flex-col;
+  justify-content: space-around;
+}
+.work-title {
+  text-transform: uppercase;
+}
+.work-image {
+  height: 80%;
+}
+.work-developed {
+  font-style: italic;
+}
