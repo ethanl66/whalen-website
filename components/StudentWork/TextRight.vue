@@ -1,7 +1,7 @@
 <template>
-  <div class="work-row">
+  <div class="work-row work-row-right">
     <div class="work-content">
-      <h2 class="work-title">Fantasy Kingdom</h2>
+      <h2 class="work-title">NAME</h2>
       <h4 class="work-developed">Developed By</h4>
       <h4 class="author">Charley Baluja</h4>
     </div>
@@ -17,4 +17,4 @@
 export default {}
 </script>
 
-<style></style>
+<style lang="scss"></style>
