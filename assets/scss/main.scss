@@ -50,3 +50,9 @@ body {
   align-items: center;
   width: 40%;
 }
+
+@include phone {
+  .modal-image {
+    display: none;
+  }
+}

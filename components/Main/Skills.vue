@@ -214,7 +214,6 @@ export default {
 }
 .skills-sub {
   margin: 2rem auto;
-  
 }
 
 .skills-row {
