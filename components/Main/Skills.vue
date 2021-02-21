@@ -214,7 +214,7 @@ export default {
 }
 .skills-sub {
   margin: 2rem auto;
-  text-decoration: underline;
+  
 }
 
 .skills-row {
