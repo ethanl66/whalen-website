@@ -75,6 +75,7 @@ export default {}
   height: 55vh;
   text-align: center;
   background-color: var(--card-background);
+  color: var(--card-text);
   transition: all 0.3s;
 }
 

@@ -5,7 +5,9 @@
       <h4>Full-Stack Educator</h4>
       <h4>Staten Island Technical High School</h4>
     </div>
-    <button class="header-btn btn">See Our Work</button>
+    <button class="header-btn btn">
+      <nuxt-link to="StudentWork" class="link">See Our Work</nuxt-link>
+    </button>
   </header>
 </template>
 
@@ -38,6 +40,7 @@ header {
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
+  color: #fff;
 }
 .header-btn {
   position: absolute;
