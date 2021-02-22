@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="student-card"
-    v-tilt="{ speed: 300, perspective: 1200, glare: true, 'max-glare': 0.5 }"
-  >
+  <div class="student-card" v-tilt="{ speed: 300, perspective: 1200 }">
     <div class="card-content">
       <h3 class="student-card-header">Japan</h3>
       <button class="student-work-btn btn">
