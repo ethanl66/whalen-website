@@ -11,7 +11,8 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "vue-tilt.js": "^1.1.1"
   },
   "devDependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.2",

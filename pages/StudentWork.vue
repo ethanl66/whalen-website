@@ -1,8 +1,20 @@
 <template>
   <section class="student-work-container">
-    <StudentCard />
-    <StudentCard />
-    <StudentCard />
+    <div class="student-row">
+      <StudentCard />
+      <StudentCard />
+      <StudentCard />
+    </div>
+    <div class="student-row">
+      <StudentCard />
+      <StudentCard />
+      <StudentCard />
+    </div>
+    <div class="student-row">
+      <StudentCard />
+      <StudentCard />
+      <StudentCard />
+    </div>
   </section>
 </template>
 
@@ -12,6 +24,18 @@ export default {}
 
 <style lang="scss">
 .student-work-container {
+  @include flex-col;
+  width: 100%;
+}
+.student-row {
   @include flex-row;
+  margin: 2rem auto;
+  justify-content: space-between;
+  width: 95%;
+}
+@include phone {
+  .student-row {
+    flex-direction: column;
+  }
 }
 </style>
