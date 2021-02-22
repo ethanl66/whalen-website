@@ -37,7 +37,7 @@ export default {}
 }
 .card-content {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   bottom: 10%;
   left: 50%;
   transform: translate(-50%, 0%);
@@ -46,17 +46,16 @@ export default {}
   @include flex-col;
 }
 .student-card-header {
-  transform: translateZ(50px);
-
   width: 100%;
   text-transform: uppercase;
+  z-index: 1;
 }
 .student-work-btn {
   font-size: var(--h5);
   height: 4rem;
+  z-index: 1;
   padding: 0.5rem 1.4rem;
   border: 1px solid #fff;
-  transform: translatez(50px);
 }
 
 .btn:hover {
@@ -75,10 +74,10 @@ export default {}
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
+  z-index: 0;
   object-fit: cover;
   filter: grayscale(80%) brightness(0.3);
-  transform: translateZ(10px);
+
   transition: all 0.4s ease;
 }
 .student-card:hover img {
