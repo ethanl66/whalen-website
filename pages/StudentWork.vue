@@ -1,6 +1,8 @@
 <template>
   <section class="student-work-container">
-    <Full />
+    <StudentCard />
+    <StudentCard />
+    <StudentCard />
   </section>
 </template>
 
@@ -10,7 +12,6 @@ export default {}
 
 <style lang="scss">
 .student-work-container {
-  @include flex-col;
-  background-color: var(--black);
+  @include flex-row;
 }
 </style>
