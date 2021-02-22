@@ -25,7 +25,7 @@ export default {}
 <style lang="scss">
 .student-card {
   transform-style: preserve-3d;
-
+  backface-visibility: hidden;
   margin: 3rem auto;
   position: relative;
   height: 30rem;
