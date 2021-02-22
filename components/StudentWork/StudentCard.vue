@@ -1,7 +1,8 @@
 <template>
   <div class="student-card" v-tilt="{ speed: 300, perspective: 1200 }">
     <div class="card-content">
-      <h3 class="student-card-header">Japan</h3>
+      <h2 class="student-card-header">Japan</h2>
+      <h5 class="student-card-sub">HTML, SCSS</h5>
       <button class="student-work-btn btn">
         <nuxt-link to="StudentWork" class="link">Learn More</nuxt-link>
       </button>
@@ -45,6 +46,11 @@ export default {}
 .student-card-header {
   width: 100%;
   text-transform: uppercase;
+  z-index: 1;
+}
+.student-card-sub {
+  width: 100%;
+  font-style: italic;
   z-index: 1;
 }
 .student-work-btn {
