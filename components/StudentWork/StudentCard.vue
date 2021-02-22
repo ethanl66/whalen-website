@@ -37,7 +37,7 @@ export default {}
 }
 .card-content {
   position: absolute;
-  z-index: 2;
+
   bottom: 10%;
   left: 50%;
   transform: translate(-50%, 0%);
@@ -47,11 +47,12 @@ export default {}
 }
 .student-card-header {
   transform: translateZ(50px);
-
+  z-index: 1;
   width: 100%;
   text-transform: uppercase;
 }
 .student-work-btn {
+  z-index: 1;
   font-size: var(--h5);
   height: 4rem;
   padding: 0.5rem 1.4rem;
