@@ -1,5 +1,5 @@
 <template>
-  <div class="student-card" v-tilt="{ speed: 300, perspective: 1200 }">
+  <div class="student-card" v-tilt="{ speed: 200, perspective: 1200, max: 1 }">
     <div class="card-content">
       <h3 class="student-card-header">{{ title }}</h3>
       <h5 class="student-card-sub">{{ techStack }}</h5>

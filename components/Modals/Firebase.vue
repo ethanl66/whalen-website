@@ -78,6 +78,14 @@ export default {
   padding: 1rem;
   text-align: left;
 }
+@include laptop {
+  .modal-text-content {
+    margin: 4rem auto;
+  }
+  .modal-flex-row {
+    margin: 5rem auto;
+  }
+}
 @include tablet {
   .modal-header {
     font-size: var(--h3);

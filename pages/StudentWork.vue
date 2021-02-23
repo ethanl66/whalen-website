@@ -51,6 +51,7 @@ export default {}
   justify-content: space-between;
   width: 95%;
 }
+
 @include phone {
   .student-row {
     flex-direction: column;
