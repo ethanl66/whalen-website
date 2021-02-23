@@ -68,18 +68,17 @@ export default {
   border: 1px solid #fff;
   border-radius: 3rem;
   transition: all 0.3s;
+  color: var(--background-primary);
+  background-color: var(--text-primary);
 }
 
 .student-work-btn:hover {
   border: 1px solid clear;
-  background-color: var(--background-primary);
+  background-color: transparent;
   cursor: pointer;
   color: var(--text-primary);
 }
 
-.student-work-btn:hover {
-  background-color: transparent;
-}
 .student-img {
   position: absolute;
   top: 0;
@@ -95,5 +94,25 @@ export default {
 .student-card:hover img {
   transform: scale(1.1);
   filter: grayscale(0) brightness(1);
+}
+@include phone {
+  .student-img {
+    height: 50%;
+    filter: grayscale(0) brightness(1);
+  }
+  .student-card:hover img {
+    transform: scale(1);
+  }
+  .card-content {
+    bottom: 5%;
+  }
+  .student-work-btn:hover {
+    border: 1px solid clear;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--text-primary);
+    color: var(--background-primary);
+    background-color: var(--text-primary);
+  }
 }
 </style>
