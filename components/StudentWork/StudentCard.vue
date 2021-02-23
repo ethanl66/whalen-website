@@ -1,23 +1,29 @@
 <template>
   <div class="student-card" v-tilt="{ speed: 300, perspective: 1200 }">
     <div class="card-content">
-      <h2 class="student-card-header">Japan</h2>
-      <h5 class="student-card-sub">HTML, SCSS</h5>
+      <h3 class="student-card-header">{{ title }}</h3>
+      <h5 class="student-card-sub">{{ techStack }}</h5>
       <button class="student-work-btn btn">
-        <nuxt-link to="StudentWork" class="link">Learn More</nuxt-link>
+        <nuxt-link :to="{ name: projectPage }" class="link"
+          >Learn More</nuxt-link
+        >
       </button>
     </div>
 
-    <img
-      class="student-img"
-      src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/EthanJapan/Screenshot_2021-02-21_Visit_Japan_jr4nfj"
-      alt=""
-    />
+    <img class="student-img" :src="imgSrc" :alt="altText" />
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    title: String,
+    imgSrc: String,
+    altText: String,
+    techStack: String,
+    projectPage: String,
+  },
+}
 </script>
 
 <style lang="scss">
@@ -60,9 +66,11 @@ export default {}
   z-index: 1;
   padding: 0.5rem 1.4rem;
   border: 1px solid #fff;
+  border-radius: 3rem;
+  transition: all 0.3s;
 }
 
-.btn:hover {
+.student-work-btn:hover {
   border: 1px solid clear;
   background-color: var(--background-primary);
   cursor: pointer;
