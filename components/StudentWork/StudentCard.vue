@@ -3,11 +3,11 @@
     <div class="card-content">
       <h3 class="student-card-header">{{ title }}</h3>
       <h5 class="student-card-sub">{{ techStack }}</h5>
-      <button class="student-work-btn btn">
+      <!-- <button class="student-work-btn btn">
         <nuxt-link :to="{ name: projectPage }" class="link"
           >Learn More</nuxt-link
         >
-      </button>
+      </button> -->
     </div>
 
     <img class="student-img" :src="imgSrc" :alt="altText" />
