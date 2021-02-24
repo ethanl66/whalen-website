@@ -30,7 +30,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxtjs/style-resources', '@nuxtjs/fontawesome'],
+  buildModules: ['@nuxtjs/style-resources', '@nuxtjs/fontawesome','@nuxtjs/prismic'],
   fontawesome: {
     component: 'fa',
     icons: {
@@ -43,7 +43,12 @@ export default {
   styleResources: {
     scss: [`./assets/scss/*.scss`],
   },
-
+ prismic: {
+    endpoint: "https://primsic-demo.cdn.prismic.io/api/v2",
+    preview: false,
+    linkResolver: "@/plugins/link-resolver",
+    htmlSerializer: "@/plugins/html-serializer"
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   cloudinary: {
