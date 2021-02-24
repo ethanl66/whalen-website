@@ -4,12 +4,12 @@
       class="student-card"
       v-tilt="{ speed: 200, perspective: 1200, max: 4 }"
     >
-      <div class="card-content">
+      <div class="card-content-2">
         <h3 class="student-card-header">{{ title }}</h3>
         <h5 class="student-card-sub">{{ techStack }}</h5>
       </div>
 
-      <img class="student-img" :src="imgSrc" :alt="altText" /></div
+      <img class="student-img-2" :src="imgSrc" :alt="altText" /></div
   ></nuxt-link>
 </template>
 
@@ -39,10 +39,10 @@ export default {
   background-color: #000;
   margin: 3.5rem auto;
 }
-.card-content {
+.card-content-2 {
   position: absolute;
   z-index: 1;
-  bottom: 10%;
+  bottom: 2%;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
@@ -79,11 +79,11 @@ export default {
   color: var(--text-primary);
 }
 
-.student-img {
+.student-img-2 {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 65%;
   width: 100%;
   z-index: 0;
   object-fit: cover;

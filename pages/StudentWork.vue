@@ -7,7 +7,7 @@
       techStack="HTML, SCSS"
       projectPage="Projects-Japan"
     />
-    <StudentCard
+    <StudentCardBlack
       title="Fantasy Kingdom"
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Fantasy Kingdom/Screenshot_2021-02-21_Galgudd_lorm1c"
       altText="Fantasy Kingdom by Charley Baluja and Daniel Briskman"
@@ -22,38 +22,45 @@
       projectPage="index"
     />
     <StudentCard
-      title="Fire Emblem"
-      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Fire Emblem/attack_pdyrpw"
-      altText="Fire Emblem By William Anderson"
-      techStack="Node, MongoDB, Socket"
+      title="Argentina Express"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Argentina/Screenshot_2021-02-21_Argentina_Express_hobksi"
+      altText="Argentina By Alston Chan and Max Livit"
+      techStack="HTML, SCSS"
       projectPage="index"
     />
     <StudentCard
-      title="Fire Emblem"
-      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Fire Emblem/attack_pdyrpw"
-      altText="Fire Emblem By William Anderson"
-      techStack="Node, MongoDB, Socket"
+      title="Visit Italia"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Italy/Screenshot_2021-02-21_Italy_c0xyct"
+      altText="Italy By Peter Seifen and Carol Lian"
+      techStack="HTML, SCSS"
       projectPage="index"
     />
     <StudentCard
-      title="Fire Emblem"
-      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Fire Emblem/attack_pdyrpw"
-      altText="Fire Emblem By William Anderson"
-      techStack="Node, MongoDB, Socket"
+      title="Loop"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Loop/loop_dash_maxdej"
+      altText="Loop by Class of 2020"
+      techStack="Node, MongoDB"
       projectPage="index"
     />
     <StudentCard
-      title="Fire Emblem"
-      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Fire Emblem/attack_pdyrpw"
-      altText="Fire Emblem By William Anderson"
-      techStack="Node, MongoDB, Socket"
+      title="Jack Twenty-One"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Jack21/Screenshot_2021-02-14_Jack_Twenty-One_pncx2g"
+      altText="Jack 21 By Nick Melkadze"
+      techStack="JavaScript, CSS"
       projectPage="index"
     />
     <StudentCard
-      title="Fire Emblem"
-      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Fire Emblem/attack_pdyrpw"
-      altText="Fire Emblem By William Anderson"
-      techStack="Node, MongoDB, Socket"
+      title="Jang Foods"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Jang Foods/Screenshot_2021-02-19_TechLife_Cafe_eavzef"
+      altText="Jang Foods By Class of 2020"
+      techStack="Node, MongoDB, Stripe"
+      projectPage="index"
+    />
+    <StudentCard
+      title="Pokemon Battle Sim"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Pokemon/Screenshot_2020-05-25_PKMN_DUEL_nmiruw"
+      altText="Pokemon By William Anderson"
+      techStack="JavaScript, CSS"
       projectPage="index"
     />
   </section>
@@ -71,7 +78,7 @@ export default {}
   justify-content: space-around;
 
   width: 100%;
-  margin: 2rem auto;
+  margin: 4rem auto;
 }
 @include tablet {
   .student-work-container {
