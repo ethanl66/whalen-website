@@ -17,13 +17,13 @@
           re-incorporate MongoDB in future school years.
         </p>
       </div>
-      <div class="modal-flex-col">
+      <!--  <div class="modal-flex-col">
         <img
           class="modal-image"
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Loop/loop_dash_maxdej"
           alt="Blackjack game developed by Nick Melkadze"
         />
-      </div>
+      </div> -->
     </div>
     <button class="modal-btn btn">Close</button>
   </div>

@@ -66,6 +66,7 @@ export default {}
 }
 
 .about-card {
+  border-radius: 2rem;
   padding: 2rem;
   width: 20%;
   display: flex;
@@ -112,7 +113,7 @@ export default {}
     flex-direction: column;
   }
   .about-card {
-    width: 90%;
+    width: 70%;
     height: auto;
     margin: 2rem auto;
     padding: 3rem;

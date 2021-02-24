@@ -17,13 +17,13 @@
           aspects of development.
         </p>
       </div>
-      <div class="modal-flex-col">
+      <!-- <div class="modal-flex-col">
         <img
           class="modal-image"
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Fire Emblem/attack_pdyrpw"
           alt="Fire Emblem Attack Screen by William Anderson"
         />
-      </div>
+      </div> -->
     </div>
     <button class="modal-btn btn">Close</button>
   </div>

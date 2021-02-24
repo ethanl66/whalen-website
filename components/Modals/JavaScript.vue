@@ -17,13 +17,13 @@
           Package Manager to bundle their projects
         </p>
       </div>
-      <div class="modal-flex-col">
+      <!-- <div class="modal-flex-col">
         <img
           class="modal-image"
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Jack21/Screenshot_2021-02-14_Jack_Twenty-One_pncx2g.png"
           alt="Blackjack game developed by Nick Melkadze"
         />
-      </div>
+      </div> -->
     </div>
     <button class="modal-btn btn">Close</button>
   </div>

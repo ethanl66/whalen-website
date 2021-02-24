@@ -93,7 +93,7 @@ export default {
   top: 0;
 }
 .nav {
-  background-image: radial-gradient(rgba(0, 0, 0, 1), rgba(50, 50, 50, 1));
+  background-color: #111;
   z-index: 1000;
   transition: transform 0.8s;
   display: flex;

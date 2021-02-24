@@ -1,5 +1,5 @@
 <template>
-  <div class="student-card" v-tilt="{ speed: 200, perspective: 1200, max: 1 }">
+  <div class="student-card" v-tilt="{ speed: 200, perspective: 1200, max: 4 }">
     <div class="card-content">
       <h3 class="student-card-header">{{ title }}</h3>
       <h5 class="student-card-sub">{{ techStack }}</h5>
@@ -87,7 +87,7 @@ export default {
   width: 100%;
   z-index: 0;
   object-fit: cover;
-  filter: grayscale(80%) brightness(0.3);
+  filter: grayscale(0%) brightness(0.3);
 
   transition: all 0.4s ease;
 }

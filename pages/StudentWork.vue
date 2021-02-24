@@ -23,16 +23,6 @@
         projectPage="index"
       />
     </div>
-    <div class="student-row">
-      <StudentCard />
-      <StudentCard />
-      <StudentCard />
-    </div>
-    <div class="student-row">
-      <StudentCard />
-      <StudentCard />
-      <StudentCard />
-    </div>
   </section>
 </template>
 

@@ -18,13 +18,13 @@
           needed for their applications.
         </p>
       </div>
-      <div class="modal-flex-col">
+      <!-- <div class="modal-flex-col">
         <img
           class="modal-image"
           src="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613337501/Fantasy Kingdom/Screenshot_2021-02-11_Galgudd_rfkjts.png"
           alt="Blackjack game developed by Nick Melkadze"
         />
-      </div>
+      </div> -->
     </div>
     <button class="modal-btn btn">Close</button>
   </div>
@@ -54,19 +54,20 @@ export default {
 }
 .modal-header {
   text-transform: uppercase;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 .modal-flex-row {
   @include flex-row;
   justify-content: space-around;
   width: 90%;
-  margin: 10rem auto;
+  margin: 8rem auto;
 }
 .modal-flex-col {
   @include flex-col;
-  width: 40%;
+  width: 60%;
   justify-content: space-around;
 }
+
 .modal-logo {
   width: 30%;
 }
@@ -74,10 +75,15 @@ export default {
   width: 100%;
 }
 .modal-text-content {
-  margin-top: 10rem;
+  margin-top: 5rem;
   font-size: var(--h4);
   padding: 1rem;
   text-align: left;
+}
+@include laptop {
+  .modal-flex-col {
+    width: 80%;
+  }
 }
 @include tablet {
   .modal-header {

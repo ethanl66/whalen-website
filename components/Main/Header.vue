@@ -49,12 +49,12 @@ header {
   transform: translate(-50%, -50%);
   font-size: var(--h4);
   height: 5rem;
-  color: var(--background-primary);
+  color: var(--text-primary);
   border: 1px solid #fff;
   padding: 0.5rem 2.4rem;
   text-decoration: none;
   transition: all 0.4s;
-  background-color: var(--text-primary);
+  background-color: transparent;
   border-radius: 3rem;
   transition: all 0.3s;
 }
