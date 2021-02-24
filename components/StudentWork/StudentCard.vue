@@ -32,12 +32,13 @@ export default {
   backface-visibility: hidden;
   margin: 3rem auto;
   position: relative;
-  height: 30rem;
-  width: 50rem;
+  height: 28rem;
+  width: 95%;
   border-radius: 2rem;
   overflow: hidden;
   box-shadow: var(--level-2);
   background-color: #000;
+  margin: 3.5rem auto;
 }
 .card-content {
   position: absolute;
@@ -95,7 +96,26 @@ export default {
   transform: scale(1.1);
   filter: grayscale(0) brightness(1);
 }
+@include laptop {
+  .student-card {
+    width: 100%;
+    height: 26rem;
+  }
+}
+@include tablet {
+  .student-card {
+    width: 100%;
+    height: 20rem;
+  }
+  .student-card-header {
+    font-size: var(--h4);
+  }
+}
 @include phone {
+  .student-card {
+    width: 80%;
+    height: 20rem;
+  }
   .student-img {
     height: 50%;
     filter: grayscale(0) brightness(1);
