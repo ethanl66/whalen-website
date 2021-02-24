@@ -81,7 +81,7 @@ export default {}
 }
 
 .about-card:hover {
-  transform: translateY(-3px) scale(1.1);
+  transform: translateY(-10px);
 }
 .card-rule {
   width: 90%;

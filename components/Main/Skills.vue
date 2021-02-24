@@ -259,6 +259,11 @@ export default {
   width: 60%;
   padding: 2rem;
   margin: 0 auto;
+  transition: all 0.3s;
+}
+.skills-img:hover {
+  cursor: pointer;
+  filter: blur(2px);
 }
 .position {
   position: fixed;
