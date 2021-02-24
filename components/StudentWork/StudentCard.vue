@@ -32,7 +32,7 @@ export default {
   backface-visibility: hidden;
   margin: 3rem auto;
   position: relative;
-  height: 28rem;
+  height: 26rem;
   width: 95%;
   border-radius: 2rem;
   overflow: hidden;
@@ -99,7 +99,10 @@ export default {
 @include laptop {
   .student-card {
     width: 100%;
-    height: 26rem;
+    height: 22rem;
+  }
+  .student-card-header {
+    font-size: var(--h4);
   }
 }
 @include tablet {
@@ -107,14 +110,11 @@ export default {
     width: 100%;
     height: 20rem;
   }
-  .student-card-header {
-    font-size: var(--h4);
-  }
 }
 @include phone {
   .student-card {
-    width: 80%;
-    height: 20rem;
+    width: 70%;
+    height: 18rem;
   }
   .student-img {
     height: 50%;
