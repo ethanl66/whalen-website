@@ -95,6 +95,9 @@ export default {
   transform: scale(1.1);
   filter: grayscale(0) brightness(1);
 }
+.student-card:hover .card-content {
+  opacity: 0;
+}
 @include laptop {
   .student-card {
     width: 100%;

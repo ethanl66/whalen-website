@@ -40,13 +40,14 @@ export default {
   margin: 3.5rem auto;
 }
 .card-content-2 {
+  transition: all 0.3s;
   position: absolute;
   z-index: 1;
-  bottom: 2%;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
-
+  background-color: rgba(100, 100, 100, 0.5);
   @include flex-col;
 }
 .student-card-header {
@@ -83,7 +84,7 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  height: 65%;
+  height: 100%;
   width: 100%;
   z-index: 0;
   object-fit: cover;
@@ -94,6 +95,9 @@ export default {
 .student-card:hover img {
   transform: scale(1.1);
   filter: grayscale(0) brightness(1);
+}
+.student-card:hover .card-content-2 {
+  opacity: 0;
 }
 @include laptop {
   .student-card {
