@@ -112,12 +112,6 @@ export default {
     width: 100%;
     height: 20rem;
   }
-}
-@include phone {
-  .student-card {
-    width: 80%;
-    height: 20rem;
-  }
   .student-img {
     height: 50%;
     filter: grayscale(0) brightness(1);
@@ -135,6 +129,12 @@ export default {
     color: var(--text-primary);
     color: var(--background-primary);
     background-color: var(--text-primary);
+  }
+}
+@include phone {
+  .student-card {
+    width: 80%;
+    height: 20rem;
   }
 }
 </style>
