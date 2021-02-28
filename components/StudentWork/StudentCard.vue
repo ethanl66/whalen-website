@@ -115,8 +115,8 @@ export default {
 }
 @include phone {
   .student-card {
-    width: 70%;
-    height: 18rem;
+    width: 80%;
+    height: 20rem;
   }
   .student-img {
     height: 50%;
