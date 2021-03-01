@@ -45,13 +45,7 @@ export default {
 .blog-header {
   margin-top: 5rem;
 }
-div {
-  padding: 1rem;
 
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
-}
 .back {
   color: white;
   font-size: 3rem;
