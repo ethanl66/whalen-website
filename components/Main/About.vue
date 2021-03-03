@@ -1,6 +1,6 @@
 <template>
   <section class="about">
-    <h2 class="text-dark about-header">About Us</h2>
+    <h2 class="about-header">About Us</h2>
     <div class="about-content">
       <div class="about-card">
         <span class="icon about-icon"><fa icon="low-vision" /></span>

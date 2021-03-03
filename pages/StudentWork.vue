@@ -12,7 +12,7 @@
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Fantasy Kingdom/Screenshot_2021-02-21_Galgudd_lorm1c"
       altText="Fantasy Kingdom by Charley Baluja and Daniel Briskman"
       techStack="HTML, SCSS"
-      projectPage="index"
+      projectPage="Projects-FantasyKingdom"
     />
     <StudentCard
       title="Fire Emblem"
