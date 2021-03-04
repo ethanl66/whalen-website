@@ -1,8 +1,11 @@
 <template>
   <div>
+    <DesktopMenu />
     <Menu />
     <Nuxt />
   </div>
 </template>
-
-<style></style>
+<script>
+export default {}
+</script>
+<style lang="scss"></style>

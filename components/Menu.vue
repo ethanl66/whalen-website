@@ -38,6 +38,11 @@ export default {
 </script>
 
 <style lang="scss">
+@media screen and (min-width: 769px) {
+  .menu {
+    display: none;
+  }
+}
 .hamburger {
   height: 6.3rem;
   width: 6.3rem;
