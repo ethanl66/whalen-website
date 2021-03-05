@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="section">
     <div>
       <h2 class="resource-heading">Development Resources</h2>
       <div class="resource-grid">

@@ -17,17 +17,22 @@ export default {}
 </script>
 
 <style lang="scss">
-.desk-nav {
+.desk {
   background-color: #000;
+  width: 100%;
   position: fixed;
+  margin: 0;
+  margin-bottom: 2rem;
   z-index: 2;
   top: 0;
   left: 0;
+  height: 6vh;
+}
+.desk-nav {
   @include flex-row;
   justify-content: space-around;
   width: 100%;
-  height: 10vh;
-  margin-bottom: 2rem;
+  height: 100%;
 }
 .nav-item-desk,
 .nav-item-desk:visited,

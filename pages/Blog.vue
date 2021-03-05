@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="section">
     <h1>Articles</h1>
 
     <div class="blog-post">

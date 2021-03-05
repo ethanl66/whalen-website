@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <section class="section">
     <h2 class="blog-header">{{ $prismic.asText(document.title) }}</h2>
 
     <p class="blog-post-meta">
       <span class="created-at">{{ formattedDate }}</span>
     </p>
     <slices-block :slices="slices" />
-  </div>
+  </section>
 </template>
 
 <script>

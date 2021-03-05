@@ -1,7 +1,8 @@
 <template>
   <div>
-    <DesktopMenu />
     <Menu />
+    <DesktopMenu />
+
     <Nuxt />
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="mockup-container">
+  <section class="mockup-container section">
     <h1 class="mockup-header">Fantasy Kingdom</h1>
     <video autoplay muted loop playsinline class="mockup-video">
       <source
@@ -43,7 +43,7 @@
         </button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

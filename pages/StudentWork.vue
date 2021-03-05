@@ -1,5 +1,5 @@
 <template>
-  <section class="student-work-container">
+  <section class="student-work-container section">
     <StudentCard
       title="Japan"
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/EthanJapan/Screenshot_2021-02-21_Visit_Japan_jr4nfj"
