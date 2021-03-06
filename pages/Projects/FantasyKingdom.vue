@@ -3,7 +3,7 @@
     <h1 class="mockup-header">Fantasy Kingdom</h1>
     <video autoplay muted loop playsinline class="mockup-video">
       <source
-        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1613089522/Fantasy%20Kingdom/FantasyGrey_jn5hmg.mov"
+        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1613089522/Fantasy%20Kingdom/kingdommockup_oie0ga.mov"
       />
     </video>
     <div class="author-banner">
@@ -65,13 +65,15 @@ export default {
 <style lang="scss">
 .mockup-container {
   height: auto;
-  margin: 3rem auto;
+
   @include flex-col;
   justify-content: space-around;
   align-items: center;
+  background-color: #000;
 }
 
 .mockup-header {
+  margin: 3rem auto;
   font-size: var(--h1);
   text-transform: uppercase;
 }
@@ -101,7 +103,7 @@ export default {
   @include flex-col;
   width: 100%;
   margin: 2rem auto;
-  background-color: var(--skill-background);
+  background-color: var(--background-primary);
 }
 .authors-list {
   @include flex-row;
