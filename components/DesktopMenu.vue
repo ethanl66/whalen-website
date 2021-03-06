@@ -20,12 +20,11 @@ export default {}
 .desk {
   background-color: #000;
   width: 100%;
-  position: fixed;
+
   margin: 0;
-  margin-bottom: 2rem;
+
   z-index: 2;
-  top: 0;
-  left: 0;
+
   height: 6vh;
 }
 .desk-nav {
