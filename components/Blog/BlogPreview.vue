@@ -80,6 +80,11 @@ export default {
   margin: 3.5rem auto;
   padding: 1rem;
 }
+@include tablet {
+  .blog-card {
+    width: 45rem;
+  }
+}
 .date {
   font-style: italic;
   color: #cba50e;
