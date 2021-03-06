@@ -3,7 +3,7 @@
     <h1 class="mockup-header">Fire Emblem</h1>
     <video autoplay muted loop playsinline class="mockup-video">
       <source
-        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,q_auto:eco,w_1200/v1615056677/FireEmblemBlack_snrnnj.mov"
+        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1615066602/Fire%20Emblem/EmblemTranslucent_twyilh.mov"
       />
     </video>
     <div class="author-banner">
