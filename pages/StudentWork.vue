@@ -19,7 +19,7 @@
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Fire Emblem/attack_pdyrpw"
       altText="Fire Emblem By William Anderson"
       techStack="Node, MongoDB, Socket"
-      projectPage="index"
+      projectPage="Projects-FireEmblem"
     />
     <StudentCard
       title="Argentina Express"
@@ -40,14 +40,14 @@
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Loop/loop_dash_maxdej"
       altText="Loop by Class of 2020"
       techStack="Node, MongoDB"
-      projectPage="index"
+      projectPage="Projects-Loop"
     />
     <StudentCard
       title="Jack Twenty-One"
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Jack21/Screenshot_2021-02-14_Jack_Twenty-One_pncx2g"
       altText="Jack 21 By Nick Melkadze"
       techStack="JavaScript, CSS"
-      projectPage="index"
+      projectPage="Projects-Jack21"
     />
     <StudentCard
       title="Jang Foods"
