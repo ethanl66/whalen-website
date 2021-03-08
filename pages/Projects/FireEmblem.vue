@@ -23,7 +23,7 @@
         </div>
         <div class="mockup-author-container">
           <h3 class="mockup-author">Winny Chan</h3>
-          <h5 class="graduation">CUNY 2024</h5>
+          <h5 class="graduation">Long Island University</h5>
         </div>
       </div>
 
