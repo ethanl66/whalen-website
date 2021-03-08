@@ -3,7 +3,7 @@
     <h1 class="mockup-header">Jack Twenty-One</h1>
     <video autoplay muted loop playsinline class="mockup-video">
       <source
-        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1612310421/Jack21/Jack21Black_rnaqmb.mov"
+        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1615064448/Jack21/BlackJackTranslucent_gdtty2.mov"
       />
     </video>
     <div class="author-banner">

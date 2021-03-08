@@ -3,7 +3,7 @@
     <h1 class="mockup-header">Loop</h1>
     <video autoplay muted loop playsinline class="mockup-video">
       <source
-        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,q_auto:eco,w_1200/v1615056715/LoopBlack_psoz2w.mov"
+        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1615066221/Loop/Loop_R_Translucent_l69qv0.mov"
       />
     </video>
     <div class="author-banner">
