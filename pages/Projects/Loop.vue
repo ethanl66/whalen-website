@@ -36,10 +36,9 @@
       </div>
 
       <p class="mockup-desc">
-        Fantasy Kingdom was developed using SCSS and HTML without the aid of
-        JavaScript. The site is responsive and loads components based on screen
-        size. This project is a great example of responsive design and
-        accessibility in action
+        Loop was developed for the 2020 Full-Stack competition. The project uses
+        Express and MongoDB for the backend API. The project is hosted on Heroku
+        in the free tier.
       </p>
 
       <div class="mockup-links">

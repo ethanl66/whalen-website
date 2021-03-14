@@ -54,14 +54,14 @@
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Jang Foods/Screenshot_2021-02-19_TechLife_Cafe_eavzef"
       altText="Jang Foods By Class of 2020"
       techStack="Node, MongoDB, Stripe"
-      projectPage="index"
+      projectPage="Projects-Jang"
     />
     <StudentCard
       title="Pokemon Battle Sim"
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Pokemon/Screenshot_2020-05-25_PKMN_DUEL_nmiruw"
       altText="Pokemon By William Anderson"
       techStack="JavaScript, CSS"
-      projectPage="index"
+      projectPage="Projects-Pkmn"
     />
   </section>
 </template>

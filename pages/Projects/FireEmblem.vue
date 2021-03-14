@@ -31,7 +31,7 @@
         Fire Emblem is a Full-stack online game based on the popular Fire Emblem
         franchise. The game is built using NodeJS, Socket.io and MongoDB . The
         project was developed for and the winner of the 2020 Full-Stack
-        Competion at SITHS.
+        Competion at SITHS. The project is hosted via Heroku's free tier.
       </p>
 
       <div class="mockup-links">
