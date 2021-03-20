@@ -87,7 +87,7 @@ export default {
   width: 100%;
   z-index: 0;
   object-fit: cover;
-  filter: grayscale(0%) brightness(0.3);
+  filter: grayscale(0%) brightness(0.2);
 
   transition: all 0.4s ease;
 }

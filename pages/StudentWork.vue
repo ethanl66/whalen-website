@@ -50,6 +50,20 @@
       techStack="JavaScript, CSS"
       projectPage="Projects-Pkmn"
     />
+    <StudentCard
+      title="Tennis Reworked"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Pong/pong1_bbnfeg"
+      altText="Tennis Reworked By Brian Jiang"
+      techStack="JavaScript, CSS"
+      projectPage="Projects-Pong"
+    />
+    <StudentCard
+      title="Cyberpunk Japan"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/CyberpunkJapan/yu2_n695bi"
+      altText="Cyberpunk Japan By Kelly Yu"
+      techStack="HTML, SCSS"
+      projectPage="Projects-CyberJapan"
+    />
   </section>
 </template>
 
