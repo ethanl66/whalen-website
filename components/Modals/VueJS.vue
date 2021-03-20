@@ -44,9 +44,9 @@ export default {
 
 <style lang="scss">
 .modal-container {
-  background-color: black;
+  background-color: var(--modal-background);
   margin: 0 auto;
-  color: #fff;
+  color: var(--modal-text);
   height: 100%;
   width: 80%;
   text-align: center;

@@ -34,11 +34,19 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxtjs/fontawesome',
     '@nuxtjs/prismic',
+    '@nuxtjs/color-mode',
   ],
   fontawesome: {
     component: 'fa',
     icons: {
-      solid: ['faLowVision', 'faCodeBranch', 'faUsers', 'faDatabase'],
+      solid: [
+        'faLowVision',
+        'faCodeBranch',
+        'faUsers',
+        'faDatabase',
+        'faMoon',
+        'faSun',
+      ],
     },
   },
 

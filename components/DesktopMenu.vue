@@ -7,7 +7,7 @@
       >
       <nuxt-link to="/Blog" class="nav-item-desk">Blog</nuxt-link>
       <nuxt-link to="/Resources" class="nav-item-desk">Resources</nuxt-link>
-      <nuxt-link to="/test" class="nav-item-desk">Theme</nuxt-link>
+      <nuxt-link to="/Theme" class="nav-item-desk">Theme</nuxt-link>
     </ul>
   </nav>
 </template>

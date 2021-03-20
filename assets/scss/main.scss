@@ -135,3 +135,24 @@ body {
   .resource-about {
   }
 }
+
+.light-mode {
+  --background-primary: #fff;
+  --skill-background: var(--black);
+  --card-background: var(--black);
+  --card-text: var(--white);
+  --background-secondary: var(--dark-grey);
+  --text-primary: var(--black);
+  --text-secondary: var(--black);
+  --modal-background: var(--white);
+  --modal-text: var(--black);
+}
+.dark-mode {
+  --background-primary: var(--light-black);
+  --skill-background: var(--black);
+  --card-background: var(--black);
+  --card-text: var(--white);
+  --background-secondary: var(--dark-grey);
+  --text-primary: var(--white);
+  --text-secondary: var(--black);
+}

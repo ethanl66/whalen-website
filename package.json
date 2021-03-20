@@ -20,6 +20,7 @@
   "devDependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@nuxtjs/cloudinary": "^1.0.3-beta-3",
+    "@nuxtjs/color-mode": "^2.0.5",
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/prismic": "^1.2.4",
     "@nuxtjs/style-resources": "^1.0.0",
