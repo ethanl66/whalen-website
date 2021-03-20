@@ -21,20 +21,7 @@
       techStack="Node, MongoDB, Socket"
       projectPage="Projects-FireEmblem"
     />
-    <StudentCard
-      title="Argentina Express"
-      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Argentina/Screenshot_2021-02-21_Argentina_Express_hobksi"
-      altText="Argentina By Alston Chan and Max Livit"
-      techStack="HTML, SCSS"
-      projectPage="index"
-    />
-    <StudentCard
-      title="Visit Italia"
-      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Italy/Screenshot_2021-02-21_Italy_c0xyct"
-      altText="Italy By Peter Seifen and Carol Lian"
-      techStack="HTML, SCSS"
-      projectPage="index"
-    />
+
     <StudentCard
       title="Loop"
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/Loop/loop_dash_maxdej"
