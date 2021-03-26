@@ -15,4 +15,10 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.theme-switcher {
+  height: 40vh;
+  @include flex-col;
+  justify-content: center;
+}
+</style>
