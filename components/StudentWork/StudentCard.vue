@@ -38,6 +38,7 @@ export default {
   box-shadow: var(--level-2);
   background-color: #000;
   margin: 3.5rem auto;
+  color: var(--student-text);
 }
 .card-content {
   position: absolute;
@@ -87,7 +88,7 @@ export default {
   width: 100%;
   z-index: 0;
   object-fit: cover;
-  filter: grayscale(0%) brightness(0.2);
+  filter: grayscale(0%) brightness(0.3);
 
   transition: all 0.4s ease;
 }

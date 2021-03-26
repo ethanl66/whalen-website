@@ -146,6 +146,7 @@ body {
   --text-secondary: var(--black);
   --modal-background: var(--white);
   --modal-text: var(--black);
+  --student-text: var(--white);
 }
 .dark-mode {
   --background-primary: var(--light-black);
@@ -155,4 +156,5 @@ body {
   --background-secondary: var(--dark-grey);
   --text-primary: var(--white);
   --text-secondary: var(--black);
+  --student-text: var(--white);
 }

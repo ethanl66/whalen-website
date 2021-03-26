@@ -24,4 +24,8 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.resource-button {
+  color: var(--link-text);
+}
+</style>
