@@ -6,7 +6,9 @@
       <h4>Staten Island Technical High School</h4>
     </div>
     <button class="header-btn btn">
-      <nuxt-link to="StudentWork" class="link">See Our Work</nuxt-link>
+      <nuxt-link to="StudentWork" class="header-btn-link"
+        >See Our Work</nuxt-link
+      >
     </button>
   </header>
 </template>
@@ -49,7 +51,7 @@ header {
   transform: translate(-50%, -50%);
   font-size: var(--h4);
   height: 5rem;
-  color: var(--text-primary);
+  color: var(--white);
   border: 1px solid #fff;
   padding: 0.5rem 2.4rem;
   text-decoration: none;
@@ -62,6 +64,12 @@ header {
   border: 1px solid clear;
   background-color: var(--background-primary);
   cursor: pointer;
-  color: var(--text-primary);
+  color: var(--header-btn);
+}
+.header-btn-link,
+.header-btn-link:visited,
+.header-btn-link:link {
+  text-decoration: none;
+  color: inherit;
 }
 </style>
