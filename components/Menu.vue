@@ -67,8 +67,8 @@ export default {
 .navigation_icon:after {
   width: 3rem;
   height: 2px;
-  //background-color: #252c30;
-  background-color: #fff;
+
+  background-color: var(--nav-line);
   display: inline-block;
   transition: all 0.2s;
 }

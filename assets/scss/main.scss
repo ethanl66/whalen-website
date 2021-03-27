@@ -147,6 +147,8 @@ body {
   --modal-background: var(--white);
   --modal-text: var(--black);
   --student-text: var(--white);
+  --nav-line: var(--grey);
+  --header-btn: var(--black);
 }
 .dark-mode {
   --background-primary: var(--light-black);
@@ -157,4 +159,6 @@ body {
   --text-primary: var(--white);
   --text-secondary: var(--black);
   --student-text: var(--white);
+  --nav-line: var(--white);
+  --header-btn: var(--white);
 }
