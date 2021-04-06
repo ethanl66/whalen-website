@@ -1,6 +1,6 @@
 <template>
   <div @click="makeHidden" class="modal-container">
-    <h2 class="modal-header">CSS Design Systems and Accessablity</h2>
+    <h2 class="modal-header">Firebase</h2>
     <div class="modal-flex-row">
       <div class="modal-flex-col">
         <img
