@@ -47,7 +47,7 @@ export default {
 }
 
 .back {
-  color: white;
+  color: var(--text-primary);
   font-size: 3rem;
 }
 
@@ -69,7 +69,7 @@ p {
   }
 }
 .textslice {
-  color: #fff;
+  color: var(--text-primary);
   text-align: start;
 
   font-size: var(--h4);
