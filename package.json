@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@prismicio/vue": "^2.0.7",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12",
+    "nuxt": "^2.15.6",
     "prismic-dom": "^2.2.5",
     "prismic-javascript": "^3.0.2",
     "vue-tilt.js": "^1.1.1"

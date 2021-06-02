@@ -47,7 +47,9 @@ export default {
         'faDatabase',
         'faMoon',
         'faSun',
+        'faEnvelopeSquare',
       ],
+      brands: ['faGithubSquare', 'faTwitterSquare', 'faFacebookSquare'],
     },
   },
 

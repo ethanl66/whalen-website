@@ -5,15 +5,17 @@
       <!-- Text slice template -->
       <template v-if="slice.slice_type === 'text'">
         <!-- Here :slice="slice" passes the data to the component -->
-        <text-slice :slice="slice"></text-slice>
+        <BlogSlicesText-slice :slice="slice"></BlogSlicesText-slice>
       </template>
       <!-- Quote slice template -->
       <template v-else-if="slice.slice_type === 'quote'">
-        <quote-slice :slice="slice"></quote-slice>
+        <BlogSlicesQuote-slice :slice="slice"></BlogSlicesQuote-slice>
       </template>
       <!-- Image with caption slice template -->
       <template v-else-if="slice.slice_type === 'image_with_caption'">
-        <image-caption-slice :slice="slice"></image-caption-slice>
+        <BlogSlicesImage-caption-slice
+          :slice="slice"
+        ></BlogSlicesImage-caption-slice>
       </template>
     </section>
   </section>

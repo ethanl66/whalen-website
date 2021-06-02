@@ -3,35 +3,35 @@
     <div>
       <h2 class="resource-heading">Development Resources</h2>
       <div class="resource-grid">
-        <DevSlice
+        <ResourcesDevSlice
           v-for="resource in DevResources"
           :key="resource.id"
           v-bind:resource="resource"
-        ></DevSlice>
+        ></ResourcesDevSlice>
       </div>
       <h2 class="resource-heading">CSS Resources</h2>
       <div class="resource-grid">
-        <CSSSlice
+        <ResourcesCSSSlice
           v-for="resource in CSSResources"
           :key="resource.id"
           v-bind:resource="resource"
-        ></CSSSlice>
+        ></ResourcesCSSSlice>
       </div>
       <h2 class="resource-heading">JavaScript Resources</h2>
       <div class="resource-grid">
-        <JSSlice
+        <ResourcesJSSlice
           v-for="resource in JSResources"
           :key="resource.id"
           v-bind:resource="resource"
-        ></JSSlice>
+        ></ResourcesJSSlice>
       </div>
       <h2 class="resource-heading">Design Resources</h2>
       <div class="resource-grid">
-        <DesignSlice
+        <ResourcesDesignSlice
           v-for="resource in DesignResources"
           :key="resource.id"
           v-bind:resource="resource"
-        ></DesignSlice>
+        ></ResourcesDesignSlice>
       </div>
     </div>
   </section>

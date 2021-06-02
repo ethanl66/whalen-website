@@ -1,7 +1,7 @@
 <template>
   <main class="theme-switcher">
-    <Color icon="moon" color="dark" />
-    <Color icon="sun" color="light" />
+    <ThemesColor icon="moon" color="dark" />
+    <ThemesColor icon="sun" color="light" />
   </main>
 </template>
 

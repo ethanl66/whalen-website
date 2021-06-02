@@ -44,7 +44,7 @@
       </div>
     </div>
     <transition name="pop" appear
-      ><JavaScript
+      ><ModalsJavaScript
         v-if="JS"
         @click="displayJSComponent"
         :JS="JS"
@@ -52,7 +52,7 @@
         class="position"
     /></transition>
     <transition name="pop" appear
-      ><SCSS
+      ><ModalsSCSS
         v-if="SCSS"
         @click="displaySCSSComponent"
         :SCSS="SCSS"
@@ -60,7 +60,7 @@
         class="position"
     /></transition>
     <transition name="pop" appear
-      ><Firebase
+      ><ModalsFirebase
         v-if="Firebase"
         @click="displayFirebaseComponent"
         :Firebase="Firebase"
@@ -68,7 +68,7 @@
         class="position"
     /></transition>
     <transition name="pop" appear
-      ><Mongo
+      ><ModalsMongo
         v-if="Mongo"
         @click="displayMongoComponent"
         :Mongo="Mongo"
@@ -76,7 +76,7 @@
         class="position"
     /></transition>
     <transition name="pop" appear
-      ><Node
+      ><ModalsNode
         v-if="Node"
         @click="displayNodeComponent"
         :Node="Node"
@@ -84,7 +84,7 @@
         class="position"
     /></transition>
     <transition name="pop" appear
-      ><VueJS
+      ><ModalsVueJS
         v-if="Vue"
         @click="displayVueComponent"
         :Vue="Vue"

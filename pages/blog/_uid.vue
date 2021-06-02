@@ -5,7 +5,7 @@
     <p class="blog-post-meta">
       <span class="created-at">{{ formattedDate }}</span>
     </p>
-    <slices-block :slices="slices" />
+    <BlogSlicesBlock :slices="slices" />
   </section>
 </template>
 

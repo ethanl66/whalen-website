@@ -1,8 +1,9 @@
 <template>
   <div class="container">
-    <Header />
-    <About />
-    <Skills />
+    <MainHeader />
+    <MainAbout />
+    <MainSkills />
+    <Footer />
   </div>
 </template>
 
