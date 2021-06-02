@@ -42,7 +42,7 @@ export default {}
 footer {
   height: 7vh;
   width: 100%;
-  background-color: var(--black);
+  //background-color: var(--black);
   color: var(--card-text);
   display: flex;
   align-items: center;
