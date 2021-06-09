@@ -3,7 +3,7 @@
     <h1 class="mockup-header">Bone Apple Teeth</h1>
     <video autoplay muted loop playsinline class="mockup-video">
       <source
-        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1615066190/Jang%20Foods/Jang_Translucent_wsziz7.mov"
+        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1622854760/Richard/BAT1Translucent_xcbobc.mov"
       />
     </video>
     <div class="author-banner">
@@ -23,7 +23,7 @@
         </div>
         <div class="mockup-author-container">
           <h3 class="mockup-author">Derek Dong</h3>
-          <h5 class="graduation">Somewhere 2025</h5>
+          <h5 class="graduation">Boston University 2025</h5>
         </div>
       </div>
 
@@ -52,7 +52,7 @@
         </button>
         <button
           class="mockup-button-link"
-          @click="onClickGit"
+          @click="onClickVideo"
           aria-label="Link to the project's Git repo"
         >
           Video
@@ -66,10 +66,16 @@
 export default {
   methods: {
     onClickGit() {
-      window.open(`https://github.com/cdugo/jang-foodcart`, '_blank')
+      window.open(
+        `https://github.com/staten-island-tech/full-stack-2021-asian-squad`,
+        '_blank'
+      )
     },
     onClickSite() {
-      window.open(`https://jang-food.herokuapp.com/`, '_blank')
+      window.open(`https://bone-apple-teeth.herokuapp.com`, '_blank')
+    },
+    onClickVideo() {
+      window.open(`https://www.youtube.com/watch?v=HW5gmYyIBzI`, '_blank')
     },
   },
 }

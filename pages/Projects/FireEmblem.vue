@@ -49,6 +49,13 @@
         >
           Github
         </button>
+        <button
+          class="mockup-button-link"
+          @click="onClickVideo"
+          aria-label="Link to the project's Git repo"
+        >
+          Video
+        </button>
       </div>
     </div>
   </section>
@@ -65,6 +72,9 @@ export default {
     },
     onClickSite() {
       window.open(`https://full-stack-game.herokuapp.com/login`, '_blank')
+    },
+    onClickVideo() {
+      window.open(`https://www.youtube.com/watch?v=2zWIWMXQfWI`, '_blank')
     },
   },
 }

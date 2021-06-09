@@ -1,47 +1,39 @@
 <template>
   <section class="mockup-container section">
-    <h1 class="mockup-header">Jang Foods</h1>
+    <h1 class="mockup-header">Random Escape Room</h1>
     <video autoplay muted loop playsinline class="mockup-video">
       <source
-        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1615066190/Jang%20Foods/Jang_Translucent_wsziz7.mov"
+        src="https://res.cloudinary.com/dbopxlpuy/video/upload/c_scale,f_auto,w_1200/v1622856374/Escape%20Room/EscapeRoomTranslucent_x4dlph.mov"
       />
     </video>
     <div class="author-banner">
       <h4 class="mockup-created">Created By</h4>
       <div class="authors-list">
         <div class="mockup-author-container">
-          <h3 class="mockup-author">Carlo Dugo</h3>
-          <h5 class="graduation">Northeastern 2024</h5>
+          <h3 class="mockup-author">Karen Choi</h3>
+          <h5 class="graduation">Harvard 2025</h5>
         </div>
         <div class="mockup-author-container">
-          <h3 class="mockup-author">Dejon Kurti</h3>
-          <h5 class="graduation">MIT 2024</h5>
+          <h3 class="mockup-author">Crystal Liang</h3>
+          <h5 class="graduation">MIT 2025</h5>
         </div>
         <div class="mockup-author-container">
-          <h3 class="mockup-author">Bryan Boyd</h3>
-          <h5 class="graduation">Princeton 2024</h5>
+          <h3 class="mockup-author">Michael Tarasov</h3>
+          <h5 class="graduation">Baruch 2025</h5>
         </div>
         <div class="mockup-author-container">
-          <h3 class="mockup-author">Brian Jiang</h3>
-          <h5 class="graduation">Northeastern 2024</h5>
-        </div>
-        <div class="mockup-author-container">
-          <h3 class="mockup-author">Cornelia Murja</h3>
-          <h5 class="graduation">Macauley Baruch 2024</h5>
-        </div>
-        <div class="mockup-author-container">
-          <h3 class="mockup-author">Andrew Bishay</h3>
-          <h5 class="graduation">SITHS 2021</h5>
+          <h3 class="mockup-author">Michelle Sun</h3>
+          <h5 class="graduation">SITHS 2024</h5>
         </div>
       </div>
 
       <p class="mockup-desc">
-        Jang Foods was developed for the 2020 Full-Stack competition in AP CSP.
-        The application is meant to serve as online ordering system for the
-        school's Tech Life Cafe. The application uses MongoDB and NodeJS to form
-        the backend API. Students used HTML, CSS and Vanilla JS for the
-        front-end as well as the Stripe API to handle credit cards. The site is
-        hosted on Heroku via the free tier.
+        Random Escape Room was developed for the 2021 Full-Stack Competition in
+        AP CSP. Using Vue with Firebase, the application is a series of 4 escape
+        rooms the user must figure out. The player controlled character is bound
+        to the screen and can interact with the environment. User’s initial run
+        is recorded for the leaderboard and all subsequent runs by a user are
+        only record for their account.
       </p>
 
       <div class="mockup-links">
@@ -68,10 +60,13 @@
 export default {
   methods: {
     onClickGit() {
-      window.open(`https://github.com/cdugo/jang-foodcart`, '_blank')
+      window.open(
+        `https://github.com/staten-island-tech/full-stack-2021-escaperoom`,
+        '_blank'
+      )
     },
     onClickSite() {
-      window.open(`https://jang-food.herokuapp.com/`, '_blank')
+      window.open(`https://escaperoom2021.netlify.app/`, '_blank')
     },
   },
 }
