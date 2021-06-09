@@ -59,6 +59,13 @@
         >
           Github
         </button>
+        <button
+          class="mockup-button-link"
+          @click="onClickVideo"
+          aria-label="Link to the project's Git repo"
+        >
+          Video
+        </button>
       </div>
     </div>
   </section>
@@ -72,6 +79,9 @@ export default {
     },
     onClickSite() {
       window.open(`https://jang-food.herokuapp.com/`, '_blank')
+    },
+    onClickVideo() {
+      window.open(`https://www.youtube.com/watch?v=r3bLwQMCUlM`, '_blank')
     },
   },
 }

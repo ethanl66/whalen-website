@@ -1,6 +1,27 @@
 <template>
   <section class="student-work-container section">
     <StudentCard
+      title="Escape Room"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1622764850/Escape%20Room/Screenshot_2021-06-03_escape-room_lt6ip6.png"
+      altText="Escape Room Site Card"
+      techStack="Vue, Firebase"
+      projectPage="Projects-EscapeRoom"
+    />
+    <StudentCard
+      title="Tech Times CMS"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1622764870/CMS/Tech_Times_CMS_nvokwg.png"
+      altText="Tech Times CMS Card"
+      techStack="Nuxt, TypeScript, MongoDB"
+      projectPage="Projects-CMS"
+    />
+    <StudentCard
+      title="Bone Apple Teeth"
+      imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1622764827/Richard/Screenshot_2021-05-31_Bone_Apple_Teeth_1_t7zgms.png"
+      altText="Bone Apple Teeth Card"
+      techStack="Nuxt, Firebase"
+      projectPage="Projects-BoneAppleTeeth"
+    />
+    <StudentCard
       title="Japan"
       imgSrc="https://res.cloudinary.com/dbopxlpuy/image/upload/c_scale,f_auto,w_800/v1613933809/EthanJapan/Screenshot_2021-02-21_Visit_Japan_jr4nfj"
       altText="Japan by Ethan Liang"
