@@ -4,9 +4,9 @@
       <h4>{{ $prismic.asText(post.data.title) }}</h4>
       <!--  <img class="student-image" v-bind:src="post.data.poster.url" /> -->
 
-      <!--  <h5 class="date">
+      <h5 class="date">
         {{ formattedDate }}
-      </h5> -->
+      </h5>
     </div>
   </nuxt-link>
 </template>
