@@ -16,15 +16,19 @@ export default {
 
 <style lang="scss">
 .theme-icon {
-  font-size: var(--h2);
+  font-size: var(--h4);
   color: var(--text-primary);
   list-style: none;
-  margin: 2rem auto;
+  margin: 1rem auto;
   transition: all 0.3s;
+  display: flex;
 }
 .icon,
 .color-name {
   margin: 1rem;
+}
+.color-name {
+  border-bottom: 3px solid transparent;
 }
 .theme-icon:hover {
   //transform: scale(1.1);

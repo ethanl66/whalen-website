@@ -17,7 +17,8 @@ export default {
 
 <style lang="scss">
 .theme-switcher {
-  height: 40vh;
+  height: 100%;
+  width: 10rem;
   @include flex-col;
   justify-content: center;
 }

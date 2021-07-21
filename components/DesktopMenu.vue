@@ -7,7 +7,9 @@
       >
       <nuxt-link to="/Blog" class="nav-item-desk">Blog</nuxt-link>
       <nuxt-link to="/Resources" class="nav-item-desk">Resources</nuxt-link>
-      <nuxt-link to="/Theme" class="nav-item-desk">Theme</nuxt-link>
+      <li to="/Theme" class="nav-item-desk dropdown-parent">
+        <h4 class="dropdown-header">Theme</h4>
+      </li>
     </ul>
   </nav>
 </template>
@@ -17,6 +19,12 @@ export default {}
 </script>
 
 <style lang="scss">
+.dropdown-parent {
+  list-style: none;
+}
+.dropdown-header {
+  font-weight: 300;
+}
 .desk {
   background-color: #000;
   width: 100%;
