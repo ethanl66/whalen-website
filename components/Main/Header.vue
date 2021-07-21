@@ -28,6 +28,7 @@ export default {}
 
 <style lang="scss">
 header {
+  position: relative;
   height: 100vh;
   background-color: #000;
   clip-path: polygon(0 0, 100% 0%, 100% 87%, 0% 100%);
@@ -45,6 +46,11 @@ header {
   @include flex-row;
   justify-content: space-around;
   width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .header-img {
   width: 30%;
