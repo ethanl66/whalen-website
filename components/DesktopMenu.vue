@@ -7,15 +7,27 @@
       >
       <nuxt-link to="/Blog" class="nav-item-desk">Blog</nuxt-link>
       <nuxt-link to="/Resources" class="nav-item-desk">Resources</nuxt-link>
-      <li to="/Theme" class="nav-item-desk dropdown-parent">
-        <h4 class="dropdown-header">Theme</h4>
-      </li>
+      <div to="/Theme" class="nav-item-desk dropdown-parent">
+        <h4 class="dropdown-header" @click="openThemeMenu">Theme</h4>
+        <Theme v-if="openTheme" />
+      </div>
     </ul>
   </nav>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      openTheme: false,
+    }
+  },
+  methods: {
+    openThemeMenu() {
+      this.openTheme = !this.openTheme
+    },
+  },
+}
 </script>
 
 <style lang="scss">
