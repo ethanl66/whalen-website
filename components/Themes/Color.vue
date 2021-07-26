@@ -17,7 +17,7 @@ export default {
 <style lang="scss">
 .theme-icon {
   font-size: var(--h4);
-  color: var(--text-primary);
+  color: var(--white);
   list-style: none;
   margin: 1rem auto;
   transition: all 0.3s;
@@ -39,6 +39,6 @@ export default {
   cursor: pointer;
 }
 .theme-icon:hover .color-name {
-  border-bottom: 3px solid var(--text-primary);
+  border-bottom: 3px solid white;
 }
 </style>

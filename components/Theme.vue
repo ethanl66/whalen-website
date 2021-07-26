@@ -27,6 +27,6 @@ export default {
   position: absolute;
   bottom: -16rem;
 
-  background-color: var(--desk-background);
+  background-color: #000;
 }
 </style>

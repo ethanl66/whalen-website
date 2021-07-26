@@ -41,7 +41,7 @@ export default {
 }
 
 .desk {
-  background-color: var(--desk-background);
+  background-color: #000;
   width: 100%;
 
   margin: 0;

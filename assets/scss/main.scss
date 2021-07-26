@@ -138,7 +138,6 @@ body {
 
 .light-mode {
   --background-primary: #fff;
-  --desk-background: var(--black);
   --skill-background: var(--black);
   --card-background: var(--black);
   --card-text: var(--white);
@@ -154,7 +153,6 @@ body {
 }
 .dark-mode {
   --background-primary: var(--light-black);
-  --desk-background: var(--black);
   --skill-background: var(--black);
   --card-background: var(--black);
   --card-text: var(--white);
