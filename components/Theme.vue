@@ -2,6 +2,9 @@
   <main class="theme-switcher">
     <ThemesColor icon="moon" color="dark" />
     <ThemesColor icon="sun" color="light" />
+    <nuxt-link id="dropdown-more-link" to="/Theme"
+      ><ThemesColor icon="sun" color="more"
+    /></nuxt-link>
   </main>
 </template>
 
@@ -28,5 +31,9 @@ export default {
   top: 7rem;
 
   background-color: #000;
+}
+
+#dropdown-more-link {
+  text-decoration: none;
 }
 </style>
