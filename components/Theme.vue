@@ -2,6 +2,8 @@
   <main class="theme-switcher">
     <ThemesColor icon="moon" color="dark" />
     <ThemesColor icon="sun" color="light" />
+    <ThemesColor icon="sun" color="light" />
+    <ThemesColor icon="sun" color="light" />
   </main>
 </template>
 
@@ -25,7 +27,7 @@ export default {
   z-index: 3;
   //border: 1px solid blue;
   position: absolute;
-  bottom: -16rem;
+  top: 7rem;
 
   background-color: #000;
 }
