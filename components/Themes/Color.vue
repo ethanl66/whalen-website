@@ -22,6 +22,9 @@ export default {
   margin: 1rem auto;
   transition: all 0.3s;
   display: flex;
+
+  z-index: 3;
+  //border: 1px solid white;
 }
 .icon,
 .color-name {
@@ -36,6 +39,6 @@ export default {
   cursor: pointer;
 }
 .theme-icon:hover .color-name {
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid var(--text-primary);
 }
 </style>

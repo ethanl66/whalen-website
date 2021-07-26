@@ -7,8 +7,10 @@
       >
       <nuxt-link to="/Blog" class="nav-item-desk">Blog</nuxt-link>
       <nuxt-link to="/Resources" class="nav-item-desk">Resources</nuxt-link>
-      <div to="/Theme" class="nav-item-desk dropdown-parent">
-        <h4 class="dropdown-header" @click="openThemeMenu">Theme</h4>
+      <div to="/Theme" class="dropdown-parent">
+        <h4 class="nav-item-desk dropdown-header" @click="openThemeMenu">
+          Theme
+        </h4>
         <Theme v-if="openTheme" />
       </div>
     </ul>
@@ -37,22 +39,32 @@ export default {
 .dropdown-header {
   font-weight: 300;
 }
+
 .desk {
-  background-color: #000;
+  background-color: var(--desk-background);
   width: 100%;
 
   margin: 0;
 
   z-index: 2;
 
-  height: 6vh;
+  //height: 6vh;
 }
 .desk-nav {
   @include flex-row;
+  align-items: flex-start;
   justify-content: space-around;
   width: 100%;
   height: 100%;
 }
+
+.dropdown-parent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .nav-item-desk,
 .nav-item-desk:visited,
 .nav-item-desk:link {
@@ -77,6 +89,10 @@ export default {
   background-position: 100%;
   color: black;
   transform: translateX(1rem);
+}
+.dropdown-header:hover,
+.dropdown-header:active {
+  transform: none;
 }
 @include tablet {
   .desk {
