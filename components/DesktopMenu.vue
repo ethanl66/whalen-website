@@ -89,6 +89,7 @@ export default {
   background-position: 100%;
   color: black;
   transform: translateX(1rem);
+  cursor: pointer;
 }
 .dropdown-header:hover,
 .dropdown-header:active {
